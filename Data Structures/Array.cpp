@@ -37,13 +37,13 @@ int deleteData(int arr[],int index, int n){
   return (n-1);
 }
 
-/* Getting a Index */
+/* Getting a value from array */
 
 int get(int arr[],int index){
   return arr[index];
 }
 
-/* Pop a element */
+/* Pop(delete a element at the end) a element */
 
 int pop(int arr[],int n){
   int popped = arr[n-1];
@@ -60,7 +60,7 @@ int popFront(int arr[],int n){
   return (n-1);
 }
 
-/* Push a element */
+/* Push(insert a element at the end) a element */
 
 int push(int arr[],int value,int n,int capacity){
   if(n>=capacity){
